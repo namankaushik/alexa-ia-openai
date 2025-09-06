@@ -1,0 +1,58 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Alexa AI OpenAI Integration - Ask questions and get intelligent responses powered by OpenAI GPT",
+          "examplePhrases": [
+            "Alexa, open alexa ia openai",
+            "Alexa, ask alexa ia openai what is artificial intelligence",
+            "Alexa, tell alexa ia openai to explain quantum computing"
+          ],
+          "keywords": [
+            "AI",
+            "artificial intelligence", 
+            "OpenAI",
+            "GPT",
+            "questions",
+            "answers",
+            "learning",
+            "knowledge",
+            "research",
+            "assistant"
+          ],
+          "name": "Alexa AI OpenAI Assistant",
+          "description": "An intelligent Alexa skill that leverages OpenAI's powerful language models to answer questions, explain concepts, and provide detailed information on a wide variety of topics. Simply ask your question and get comprehensive, AI-powered responses through your Alexa device.",
+          "smallIconUri": "https://example.com/icon-108x108.png",
+          "largeIconUri": "https://example.com/icon-512x512.png"
+        }
+      },
+      "isAvailableWorldwide": false,
+      "testingInstructions": "This skill requires OpenAI API key configuration. Test by asking questions like 'what is machine learning' or 'explain photosynthesis'.",
+      "category": "EDUCATION_AND_REFERENCE",
+      "distributionCountries": ["US"]
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:123456789012:function:alexa-openai-function"
+        },
+        "interfaces": []
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "usesPersonalInfo": false,
+      "isChildDirected": false,
+      "isExportCompliant": true,
+      "containsAds": false,
+      "locales": {
+        "en-US": {
+          "privacyPolicyUrl": "https://example.com/privacy-policy",
+          "termsOfUseUrl": "https://example.com/terms-of-use"
+        }
+      }
+    }
+  }
+}
