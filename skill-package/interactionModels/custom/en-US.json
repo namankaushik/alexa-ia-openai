@@ -1,0 +1,62 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "alexa ia openai",
+      "intents": [
+        {
+          "name": "QuestionIntent",
+          "slots": [
+            {
+              "name": "searchQuery",
+              "type": "AMAZON.SearchQuery",
+              "samples": [
+                "tell me about {searchQuery}",
+                "what do you know about {searchQuery}",
+                "explain {searchQuery}",
+                "search for {searchQuery}"
+              ]
+            }
+          ],
+          "samples": [
+            "tell me about {searchQuery}",
+            "what do you know about {searchQuery}",
+            "explain {searchQuery} to me",
+            "search for {searchQuery}",
+            "find information about {searchQuery}",
+            "help me learn about {searchQuery}",
+            "I want to know about {searchQuery}",
+            "can you tell me about {searchQuery}",
+            "what is {searchQuery}",
+            "describe {searchQuery}",
+            "give me details about {searchQuery}",
+            "I need information on {searchQuery}",
+            "teach me about {searchQuery}",
+            "tell me more about {searchQuery}",
+            "what can you say about {searchQuery}"
+          ]
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        }
+      ],
+      "types": []
+    }
+  }
+}
